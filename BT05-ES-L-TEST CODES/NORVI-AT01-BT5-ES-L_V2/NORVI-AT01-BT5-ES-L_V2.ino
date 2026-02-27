@@ -387,3 +387,21 @@ WiFi.macAddress(mac);
   Serial.println("Wi-Fi Access Point is active!");
   Serial.println("");
 }
+
+void cmd() {
+  Serial.println(F("-----------------------------------------------------------------------------------------------------------------------------------"));
+  Serial.println(F("                                                            NORVI-AT01-BT5-ES-L                                                    "));
+  Serial.println(F("                                                                                                                                   "));
+  Serial.println(F(" ----------------------------------------------------------------------------------------------------------------------------------"));
+  Serial.println(F("                                                                TESTING                                                            "));
+  Serial.println(F("                                                                                                                                   "));
+  Serial.println(F(" ----------------------------------------------------------------------------------------------------------------------------------"));
+  Serial.println(F("                                                  input from the Serial Monitor                                                    "));
+  Serial.println(F("                                      ***********************************************************                                  "));
+  Serial.println(F("                                                                                                                                   "));
+  Serial.println(F("                                          INPUT SERIAL  '1'       Switch to FUNTIONAL TEST                                         "));
+  Serial.println(F("                                                                                                                                   "));
+  Serial.println(F("                                          INPUT SERIAL  '2'       Switch to LORA TEST                                              "));
+  Serial.println(F("                                                     --------------------------------                                              "));                             
+  }
+
